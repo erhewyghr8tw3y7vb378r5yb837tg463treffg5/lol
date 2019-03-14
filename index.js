@@ -25,10 +25,10 @@ client.on('ready', () => {
 
 client.on("ready", async () => {
     if(client.guilds.size > 1) {
-        client.user.setGame(`*help | Servers : ${client.guilds.size}`,'https://www.twitch.tv/hamodi1299');
+        client.user.setGame(`Bhelp | 🔥⚡⚡MR.฿ɑ̈̈ηÐ⚡⚡🔥`,'https://www.twitch.tv/hamodi1299');
         console.log(`${client.user.username} is online on ${client.guilds.size} servers!`)
     } else {
-        client.user.setGame(`*help | Servers : ${client.guilds.size}`,'https://www.twitch.tv/hamodi1299');
+        client.user.setGame(`Bhelp | 🔥⚡⚡MR.฿ɑ̈̈ηÐ⚡⚡🔥`,'https://www.twitch.tv/hamodi1299');
         console.log(`${client.user.username} is online on ${client.guilds.size} server!`)
     }
     client.user.setStatus("online");
@@ -37,18 +37,18 @@ client.on("ready", async () => {
 client.on("guildCreate", guild => {
     console.log("Joined a new guild: " + guild.name);
     if(client.guilds.size > 1) {
-        client.user.setGame(`*help | Servers : ${client.guilds.size}	`,'https://www.twitch.tv/hamodi1299');
+        client.user.setGame(`Bhelp | 🔥⚡⚡MR.฿ɑ̈̈ηÐ⚡⚡🔥	`,'https://www.twitch.tv/hamodi1299');
     } else {
-        client.user.setGame(`*help | Servers : ${client.guilds.size}	`,'https://www.twitch.tv/hamodi1299');
+        client.user.setGame(`Bhelp | 🔥⚡⚡MR.฿ɑ̈̈ηÐ⚡⚡🔥	`,'https://www.twitch.tv/hamodi1299');
     }
 });
 
 client.on("guildDelete", guild => {
     console.log("Left a guild: " + guild.name);
     if(client.guilds.size > 1) {
-        client.user.setGame(`*help | Servers : ${client.guilds.size}	`,'https://www.twitch.tv/hamodi1299');
+        client.user.setGame(`Bhelp | 🔥⚡⚡MR.฿ɑ̈̈ηÐ⚡⚡🔥`,'https://www.twitch.tv/hamodi1299');
     } else {
-        client.user.setGame(`*help | Servers : ${client.guilds.size}	`,'https://www.twitch.tv/hamodi1299');
+        client.user.setGame(`Bhelp | 🔥⚡⚡MR.฿ɑ̈̈ηÐ⚡⚡🔥	`,'https://www.twitch.tv/hamodi1299');
     }
 });
 
@@ -113,7 +113,6 @@ client.on('message', message => {
 
 
         message.author.sendMessage(`
-  **To activate the server log, create Text channel named "log"**
   
         	__**Staff commands :gear:**__
 			
